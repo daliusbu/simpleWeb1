@@ -1,0 +1,103 @@
+*{
+  box-sizing: border-box;
+}
+  body{
+  background-color:#ccc;
+  margin: 0;
+  font-family: "Open sans", sans-serif;
+}
+header{
+  background-color: #404045;
+  color: rgb(44, 176, 189);
+  overflow: auto;
+  font-size: 20px;
+  margin: 0;
+  width:100%;
+  position: fixed;
+  top:0;
+}
+#name{
+  color: inherit;
+  float: left;
+  padding: 10px 30px;
+  margin:5px;
+}
+#menu{
+  float: right;
+  list-style-type: none;
+  margin: 0 20px;
+}
+#menu li{
+  display: inline-block;
+}
+
+a{
+  text-decoration:none;
+  color: inherit;
+  display: inline-block;
+  padding:20px;
+  margin:0;
+}
+#menu a:hover{
+  background-color:black;
+}
+#main-container{
+  clear: both;
+  background-color: #fff;
+  width: 80%;
+  height: 100%;
+  margin: 80px auto 50px;
+  overflow: auto;
+}
+.aside{
+  width:30%;
+  padding: 20px;
+  float: left;
+}
+.side-message{
+  margin: 20px;
+  box-shadow:5px 8px 10px lightgrey;
+  padding:15px;
+  background-color: rgba(237, 240, 246, 0.5);
+  height: 250px;
+  overflow: hidden;
+}
+#section{
+  width:65%;
+  float: right;
+  padding: 20px 20px;
+  margin-right:20px;
+}
+.article{
+  padding: 10px;
+  border: 1px solid rgba(150,150,150,0.5);
+  margin: 20px;
+
+}
+.article h1{
+  text-transform:uppercase;
+  text-align: center;
+  background-color: rgba(237, 240, 246, 0.5);
+  padding: 40px;
+}
+.pratesimas{
+  background-color: rgba(52, 153, 59, 0.8);
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.pratesimas a{
+  width: 100%;
+  padding:10px;
+}
+footer{
+  width: 100%;
+  background-color: #404045;
+  color:rgb(215, 233, 235);
+  text-align: center;
+  margin: 0;
+}
+footer h3{
+  margin:0;
+  padding:20px;
+}
