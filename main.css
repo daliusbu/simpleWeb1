@@ -14,8 +14,8 @@ header{
   margin: 0;
   width:100%;
   position: fixed;
-  top:0;
-}
+  top:5;
+  }
 #name{
   color: inherit;
   float: left;
